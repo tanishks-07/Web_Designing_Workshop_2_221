@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop it - E-commerce Navbar</title>
+    <style>
+      body {
+        font-family: "Times New Roman";
+        margin: 50px;
+        background: #f9f9f9;
+        border: 2px solid #000;
+        border-radius: 25px;
+        padding: 15px;
+      }
+
+      .navbar {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(52, 69, 92);
+        color: white;
+        padding: 10px;
+      }
+
+      .logo h3 {
+        margin: 0;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .nav-links a,
+      .actions a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .nav-links a:hover,
+      .actions a:hover {
+        text-decoration: underline;
+      }
+
+      .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+      }
+
+      section {
+        margin-top: 40px;
+        margin-bottom: 300px;
+      }
+
+      section h2 {
+        margin-bottom: 5px;
+      }
+
+      section p {
+        margin-top: 0;
+        font-size: 18px;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          margin: 10px;
+          padding: 10px;
+        }
+
+        .navbar {
+          flex-direction: column;
+          align-items: center;
+          gap: 15px;
+          text-align: center;
+        }
+
+        .nav-links {
+          flex-direction: column;
+          gap: 5px;
+        }
+
+        .actions {
+          flex-direction: row;
+          gap: 15px;
+        }
+
+        .logo {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><h3>Shop it..</h3></div>
+
+      <ul class="nav-links">
+        <li><a href="$$">Home</a></li>
+        <li><a href="$$">Products</a></li>
+        <li><a href="$$">Categories</a></li>
+        <li><a href="$$">Deals</a></li>
+        <li><a href="$$">Contact</a></li>
+      </ul>
+
+      <div class="actions">
+        <a href="$$">Cart 🛒</a>
+        <a href="$$">Login</a>
+      </div>
+    </nav>
+
+    <section>
+      <h2>Welcome to Shop it..!</h2>
+      <p>Your one-stop shopping destination.</p>
+    </section>
+  </body>
+</html>
